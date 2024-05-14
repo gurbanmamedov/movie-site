@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <a href="index.html" class="header__logo">Movie App</a>
+        <form>
+          <input class="header__search" type="search" placeholder="Search" />
+        </form>
+      </div>
+    </header>
+    <main>
+
+      <section class="movies__section container">
+        <ul class="movies"></ul>
+        <div class="pagination">
+          <button id="prevPage">Previous</button>
+          <button id="nextPage">Next</button>
+        </div>
+      </section>
+    </main>
+    <script src="./src/JS/app.js"></script>
+  </body>
+</html>
